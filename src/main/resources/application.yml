@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: security-service
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
